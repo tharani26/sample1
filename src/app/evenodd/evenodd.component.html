@@ -1,0 +1,10 @@
+<p>evenodd works!</p>
+<div *ngFor="let id of ids">
+    Id is {{id}}<br>
+    <div *ngIf="id%2 == 0">
+        <p>Even Number</p>
+    </div>
+    <div *ngIf="id%2 != 0">
+        <p>Odds Number</p>
+    </div>
+</div>
